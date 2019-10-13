@@ -1,0 +1,53 @@
+body{
+background-color:whitesmoke;
+}
+
+.hp-issue-index {
+  text-decoration: underline;
+  f
+}
+
+
+
+
+.hp-issue-content{
+font-family: "Comic Sans MS", cursive, sans-serif;
+color:navy;
+border-bottom: 5px solid  navy;
+align-self: auto;
+
+
+
+}
+
+
+.hp-news-block-container-1, .hp-news-block-container-2, .hp-news-block-container-3{
+  margin: 50px;
+  border-left: 5px solid  rgb(63, 177, 171);
+
+  padding:10px;
+
+}
+
+.hp-news-title{
+  color: cadetblue;
+}
+
+.hp-news-date{
+  text-align: right;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.footer-container{
+  text-align: left;
+  color: tomato;
+}
+
+
