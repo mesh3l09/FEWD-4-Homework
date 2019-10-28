@@ -1,0 +1,302 @@
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+}
+
+.contuner{
+  display: grid;
+  grid-template: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+   grid-auto-rows: minmax(100px,auto);
+  /* gap: 10px 20px; */
+
+}
+
+.logo{
+  grid-column: 1/1;
+  grid-row: 1/1;
+  justify-self: start;
+  margin-left:20px;
+  margin-top: 10px;
+
+}
+.logo img{
+  
+  width: 40%;
+  height: auto;
+}
+
+.nav{
+  grid-column: 3/3;
+  grid-row: 1/1;
+justify-self: end;
+margin-right: 15px;
+}
+.nav li{
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
+}
+
+.marblone img{
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  filter: brightness(.5);
+
+
+}
+
+.marblone{
+  grid-column: 1/4;
+  grid-row: 2/6;
+  background-color: #EDEFEC;
+}
+
+.header
+{
+  position: relative;
+  grid-column: 2/2;
+  grid-row: 3/3;
+  justify-self: center;
+  font-weight: bolder;
+  font-size: 35px;
+  color: white;
+}
+
+.from{
+  position: relative;
+  color: white;
+  grid-column: 2/2;
+  grid-row: 3/3;
+  justify-self: center;
+  margin-top: 40px;
+  text-align: center;
+
+}
+.btn{
+  position: relative;
+  background-color: #FF5A5D;
+  color: white;
+  grid-column: 2/2;
+  grid-row: 4/4;
+  width: 180px;
+  height: 40px;
+justify-self: center;
+border: none;
+}
+
+.contuner1{
+
+  display: grid;
+  grid-template-columns: 450px  450px;
+  grid-template-rows: 190px;
+  column-gap: 20px;
+  justify-content: center;
+  background-color: #EDEFEC;
+
+  J
+
+}
+
+.love {
+  grid-column: 1/1;
+  grid-row: 1/1;
+  justify-self: center;
+  background-color: #FEFEFE;
+
+  margin-bottom: 25px;
+  ;
+
+}
+.local{
+grid-column: 2/2;
+grid-row: 1/1;
+justify-self: center;
+background-color: #FEFEFE;
+margin-bottom: 25px;
+}
+
+.love h4,.local h4{
+  color:#838582;
+  background-color: rgba(211, 206, 206, 0.884);
+  margin: 0px 0px;
+  height: 30px;
+  padding-left: 15px;
+  padding-top: 10px;
+
+}
+
+.local p, .love p  {
+  
+  justify-self: center;
+  background-color: rgb(255, 255, 255);
+  color:#838582;
+  margin: 0px 0px;
+  height:100px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 21px
+
+
+}
+
+
+.contuner2{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px;
+ 
+  
+  
+}
+
+.header2{
+  grid-column: 1/1;
+  grid-row:1/1;
+  justify-self: center;
+align-self: center;
+color:#656664;
+font-size: 25px;
+}
+
+.Explore{
+  font-size: 12px;
+  justify-self: center;
+align-self: center;
+margin: 0px;
+color:#656664;
+
+}
+
+.contuner3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: minmax(50px,auto);
+  /* column-gap:  */
+  margin-top: 20px;
+
+  justify-content: center;	
+
+
+}
+
+.pic1{
+  position: relative;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  justify-self: center;
+  align-self: center;
+  color: white;
+  text-align: center;
+
+
+}
+
+.pic2{
+
+  grid-column: 2/2;
+  grid-row:1/1;
+  justify-self: center;
+  position: relative;
+  align-self: center;
+  color: white;
+  text-align: center;
+
+
+
+
+}
+
+.pic3{
+  grid-column: 3/3;
+  grid-row: 1/1;
+  position: relative;  
+  justify-self: center;
+  align-self: center;
+  color: white;
+  text-align: center;
+
+
+}
+
+.pic1 img, .pic2 img, .pic3 img{
+  width: 250px;
+  height: 300px;
+  filter: brightness(.5);
+
+}
+
+
+/* .text1{
+  position: relative;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  justify-self: center;
+  align-self: center;
+  color: white;
+} */
+
+.detiles1{
+  grid-column: 1/1;
+  grid-row: 2/2;
+width: 250px;
+background-color: #c6ccc4c5 ;
+justify-self: center;
+  align-self: center;
+  color: rgb(131, 128, 128);
+  text-align: left;
+}
+
+.detiles2{
+  grid-column: 2/2;
+  grid-row: 2/2;
+  width: 250px;
+background-color: #c6ccc4c5 ;
+justify-self: center;
+  align-self: center;
+  color: rgb(131, 128, 128);
+  text-align: left;
+  
+}
+
+.detiles3{
+  grid-column: 3/3;
+  grid-row: 2/2;
+  width: 250px;
+background-color: #c6ccc4c5 ;
+justify-self: center;
+  align-self: center;
+  color: rgb(131, 128, 128);
+  text-align: left;
+  
+}
+.btn1{
+position: relative;
+  background-color: #FF5A5D;
+  color: white;
+  grid-column: 2/2;
+  grid-row: 3/3;
+  width: 180px;
+  height: 40px;
+justify-self: center;
+border: none;
+margin-top: 30px;
+}
+
+
+.footer{
+
+  color: white;
+  background-color: #333;
+grid-column: 1/4;
+grid-row: 4/4;
+text-align: center;
+height: 100px;
+
+}
+
+
+
+  
+
+
